@@ -1,0 +1,34 @@
+/*color pallete*/
+:root {
+    --light: #fbf8e7;
+    --light-accent: #bbffb4;
+    --accent: #34ff90;
+    --dark-accent: #34ff8f98;
+    --dark: #070f2a;
+}
+
+body {
+    background-color: var(--dark);
+    margin: 1rem;
+}
+
+h1{
+    font-size: 5rem;
+    color: var(--accent);
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--dark-accent);
+    margin-top: 0;
+    position: relative;
+    top: -1rem;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--light);
+}
+
